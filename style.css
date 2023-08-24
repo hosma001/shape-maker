@@ -8,6 +8,13 @@
 .container > div {
     border: solid 1px black;
     margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 50%;
 }
 
 .sm {
@@ -25,14 +32,24 @@
     height: 75px;
 }
 
+.xl {
+    width: 100px;
+    height: 100px;
+}
+
 .red {
     background-color: red;
 }
 
 .blue {
     background-color: blue;
+    color: white;
 }
 
 .green {
     background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
 }
